@@ -1,0 +1,24 @@
+What I did :
+For now, I made two static scripts each having a simple arithmetic parser (they may parse all expressions containing +, -, *, /, (), 12345.67890).
+Both scripts include a function that evaluate arithmetic expressions and can be called everywhere.
+There are :
+- an LL Parser
+- a parser that I created with my own method (of course it is less effective than the LL parser)
+
+
+How I did it :
+The two parsers use the same general method : 
+- a lexer that transform the string expression on token expression.
+- a parser that evaluate the token list.
+
+The LL Parser undergo each character from left to right and use a tree to evaluate each expressions.
+
+My parser starts by using recursion to get the expression between brackets and evaluate it.
+Then it transforms each factor into values. Finally it operates what remains : terms.
+
+
+What am I trying to do :
+Next step is to adapt the scripts to packages that can be downloaded by anyone.
+It will provide a function with a string expression in parameters and that return a number (float or double).
+
+If i have time after that I would like to implement a way to add custom characters with special effects.

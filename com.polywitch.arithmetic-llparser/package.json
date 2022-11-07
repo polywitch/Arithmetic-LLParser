@@ -1,0 +1,23 @@
+{
+  "name": "com.polywitch.arithmetic-llparser",
+  "version": "1.0.1",
+  "displayName": "Arithmetic LLParser",
+  "description": "This is an example package",
+  "unity": "2021.3",
+  "unityRelease": "0b5",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "library",
+    "utility",
+    "expression",
+    "parser"
+  ],
+  "author": {
+    "name": "AdrienLemaire",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  },
+  "type": "tool"
+}
